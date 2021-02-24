@@ -9,6 +9,7 @@ namespace Controllers
 {
    [ApiController]
    [Route("api/[controller]")]
+   
    public class UsersController : Controller
    {
       private readonly DataContext _context;
